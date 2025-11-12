@@ -141,7 +141,7 @@ export const translations = {
         {
           title: "8. Services Tiers",
           content:
-            "HabitDaily utilise uniquement les frameworks natifs d'Apple (iCloud, notifications locales, widgets). Aucun service tiers d'analyse, de publicité ou de suivi n'est intégré dans l'application.",
+            "HabitDaily utilise les services suivants pour améliorer votre expérience :\n\n• iCloud : Pour synchroniser vos données d'habitudes entre vos appareils Apple.\n• Firebase Authentication : Pour l'authentification via Apple Sign In. Firebase ne stocke que votre identifiant unique Apple, aucune donnée personnelle n'est partagée.\n• RevenueCat : Pour gérer les abonnements et achats in-app. RevenueCat traite uniquement les informations d'abonnement nécessaires, sans accès à vos données d'habitudes personnelles.\n\nTous ces services respectent des standards stricts de confidentialité et de sécurité. Aucun service d'analyse comportementale, de publicité ou de suivi n'est intégré dans l'application.",
         },
         {
           title: "9. Modifications de cette Politique",
@@ -202,7 +202,7 @@ export const translations = {
         {
           title: "9. Services Tiers",
           content:
-            "L'Application utilise iCloud d'Apple pour la synchronisation des données. L'utilisation d'iCloud est soumise aux conditions d'utilisation et à la politique de confidentialité d'Apple. Nous ne sommes pas responsables des services tiers, y compris iCloud, et de leur disponibilité ou de leurs performances.",
+            "L'Application utilise les services tiers suivants :\n\n• Apple iCloud : Pour la synchronisation de vos données entre vos appareils.\n• Firebase Authentication : Pour l'authentification sécurisée via Apple Sign In.\n• RevenueCat : Pour la gestion des abonnements et paiements.\n\nL'utilisation de ces services est soumise à leurs conditions d'utilisation et politiques de confidentialité respectives. Nous ne sommes pas responsables des services tiers et de leur disponibilité ou performances. Ces services n'ont pas accès à vos données de suivi d'habitudes.",
         },
         {
           title: "10. Modifications des Conditions",
@@ -364,7 +364,7 @@ export const translations = {
         {
           title: "8. Third-Party Services",
           content:
-            "HabitDaily uses only Apple's native frameworks (iCloud, local notifications, widgets). No third-party analytics, advertising, or tracking services are integrated into the app.",
+            "HabitDaily uses the following services to enhance your experience:\n\n• iCloud: To synchronize your habit data across your Apple devices.\n• Firebase Authentication: For Apple Sign In authentication. Firebase only stores your unique Apple identifier, no personal data is shared.\n• RevenueCat: To manage subscriptions and in-app purchases. RevenueCat only processes necessary subscription information, without access to your personal habit data.\n\nAll these services comply with strict privacy and security standards. No behavioral analytics, advertising, or tracking services are integrated into the app.",
         },
         {
           title: "9. Changes to This Policy",
@@ -425,7 +425,7 @@ export const translations = {
         {
           title: "9. Third-Party Services",
           content:
-            "The App uses Apple's iCloud for data synchronization. Use of iCloud is subject to Apple's terms of use and privacy policy. We are not responsible for third-party services, including iCloud, and their availability or performance.",
+            "The App uses the following third-party services:\n\n• Apple iCloud: For data synchronization across your devices.\n• Firebase Authentication: For secure Apple Sign In authentication.\n• RevenueCat: For subscription and payment management.\n\nUse of these services is subject to their respective terms of use and privacy policies. We are not responsible for third-party services and their availability or performance. These services do not have access to your habit tracking data.",
         },
         {
           title: "10. Changes to Terms",
