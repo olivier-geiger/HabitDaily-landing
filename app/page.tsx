@@ -122,6 +122,58 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Widgets Section */}
+      <section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-black text-white mb-4">
+              📱 {t.widgets.title}
+            </h2>
+            <p className="text-lg text-white/70 max-w-2xl mx-auto">
+              {t.widgets.subtitle}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 transition-all hover:-translate-y-2">
+              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <CheckCircle className="w-10 h-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">
+                {t.widgets.today.title}
+              </h3>
+              <p className="text-white/70 leading-relaxed">
+                {t.widgets.today.desc}
+              </p>
+            </div>
+
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:border-orange-500/50 hover:shadow-2xl hover:shadow-orange-500/20 transition-all hover:-translate-y-2">
+              <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <Flame className="w-10 h-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">
+                {t.widgets.streak.title}
+              </h3>
+              <p className="text-white/70 leading-relaxed">
+                {t.widgets.streak.desc}
+              </p>
+            </div>
+
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:border-green-500/50 hover:shadow-2xl hover:shadow-green-500/20 transition-all hover:-translate-y-2">
+              <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <BarChart3 className="w-10 h-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">
+                {t.widgets.stats.title}
+              </h3>
+              <p className="text-white/70 leading-relaxed">
+                {t.widgets.stats.desc}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* How It Works */}
       <section
         id="how-it-works"

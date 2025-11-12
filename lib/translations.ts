@@ -32,6 +32,23 @@ export const translations = {
         desc: "Adaptez vos habitudes à votre style avec des icônes, couleurs et catégories personnalisées.",
       },
     },
+    widgets: {
+      title: "Widgets pour votre écran d'accueil",
+      subtitle:
+        "Suivez vos progrès sans ouvrir l'application grâce à 3 widgets personnalisables.",
+      today: {
+        title: "Widget du Jour",
+        desc: "Visualisez toutes vos habitudes du jour et cochez-les directement depuis votre écran d'accueil.",
+      },
+      streak: {
+        title: "Widget Séries",
+        desc: "Gardez un œil sur vos séries les plus longues et restez motivé à ne jamais rompre la chaîne.",
+      },
+      stats: {
+        title: "Widget Statistiques",
+        desc: "Consultez vos taux de réussite et votre progression globale d'un simple coup d'œil.",
+      },
+    },
     howItWorks: {
       title: "Comment ça fonctionne",
       subtitle:
@@ -222,7 +239,6 @@ export const translations = {
       ],
     },
   },
-
   en: {
     nav: {
       features: "Features",
@@ -253,6 +269,23 @@ export const translations = {
       custom: {
         title: "Full Customization",
         desc: "Create your habits with custom icons, colors, and categories that reflect your goals.",
+      },
+    },
+    widgets: {
+      title: "Widgets for your home screen",
+      subtitle:
+        "Track your progress without opening the app thanks to 3 customizable widgets.",
+      today: {
+        title: "Widget of the Day",
+        desc: "View all your daily habits and check them off directly from your home screen.",
+      },
+      streak: {
+        title: "Series Widget",
+        desc: "Keep an eye on your longest streaks and stay motivated to never break the chain.",
+      },
+      stats: {
+        title: "Statistics Widget",
+        desc: "Check your success rates and overall progress at a glance.",
       },
     },
     howItWorks: {
