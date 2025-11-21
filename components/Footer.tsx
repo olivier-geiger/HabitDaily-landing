@@ -23,7 +23,7 @@ export default function Footer({ translations }: FooterProps) {
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 mb-8 text-white/70">
-          <Link href="/privacy" className="hover:text-white transition">
+          <Link href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="hover:text-white transition">
             {translations.footer.privacy}
           </Link>
           <Link href="/terms" className="hover:text-white transition">

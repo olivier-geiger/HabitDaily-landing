@@ -6,6 +6,7 @@ import { translations, Language } from '@/lib/translations';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
+
 export default function HomePage() {
   const [language, setLanguage] = useState<Language>('fr');
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
