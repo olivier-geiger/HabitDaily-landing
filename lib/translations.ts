@@ -11,6 +11,7 @@ export const translations = {
       title: "HABIT DAILY",
       subtitle:
         "Transformez vos habitudes et atteignez vos objectifs avec HabitDaily — une application simple, élégante et puissante pour créer des routines durables.",
+      freeOffer: "2 habitudes gratuites pour essayer toutes les fonctionnalités",
       downloadApp: "Télécharger l'App",
       learnMore: "En savoir plus",
       rating: "Plus de 10,000 utilisateurs satisfaits",
@@ -74,6 +75,10 @@ export const translations = {
       title: "Questions Fréquentes",
       subtitle: "Tout ce que vous devez savoir sur HabitDaily",
       questions: [
+        {
+          q: "L'application est-elle gratuite ?",
+          a: "HabitDaily vous offre 2 habitudes gratuites pour tester toutes les fonctionnalités de l'application. Pour créer des habitudes illimitées, un abonnement est disponible.",
+        },
         {
           q: "HabitDaily peut-il remplacer un coach ou un thérapeute ?",
           a: "Non, HabitDaily est conçu pour vous aider à suivre et développer vos habitudes, mais ne remplace pas un accompagnement professionnel.",
@@ -250,6 +255,7 @@ export const translations = {
       title: "HABIT DAILY",
       subtitle:
         "Transform your habits and achieve your goals with HabitDaily — the elegant and powerful habit-tracking app designed to help you build consistency effortlessly.",
+      freeOffer: "2 free habits to try all the features",
       downloadApp: "Download App",
       learnMore: "Learn More",
       rating: "Over 10,000 satisfied users",
@@ -313,6 +319,10 @@ export const translations = {
       title: "Frequently Asked Questions",
       subtitle: "Everything you need to know about HabitDaily",
       questions: [
+        {
+          q: "Is the app free?",
+          a: "HabitDaily offers 2 free habits so you can try all the features of the app. For unlimited habits, a subscription is available.",
+        },
         {
           q: "Can HabitDaily replace a professional coach or therapist?",
           a: "No, HabitDaily is designed to help you track and build habits, but it does not replace professional guidance or therapy.",

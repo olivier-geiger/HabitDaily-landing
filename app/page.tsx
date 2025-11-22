@@ -1,16 +1,24 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Flame, CheckCircle, Star, BarChart3, Palette, Plus, TrendingUp } from 'lucide-react';
-import { translations, Language } from '@/lib/translations';
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
-
+import { useState } from "react";
+import {
+  Flame,
+  CheckCircle,
+  Star,
+  BarChart3,
+  Palette,
+  Plus,
+  TrendingUp,
+} from "lucide-react";
+import { translations, Language } from "@/lib/translations";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function HomePage() {
-  const [language, setLanguage] = useState<Language>('fr');
+  const [language, setLanguage] = useState<Language>("fr");
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
-  
+
   const t = translations[language];
   const appStoreLink = "https://apps.apple.com/fr/app/habitdaily/id6754026468";
 
@@ -27,17 +35,24 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
-      <Navigation language={language} setLanguage={setLanguage} translations={t} />
+      <Navigation
+        language={language}
+        setLanguage={setLanguage}
+        translations={t}
+      />
 
       {/* Hero Section */}
       <section className="text-center py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-8 animate-float">
-            <img
-              src="/1024.png"
-              alt="HabitDaily logo"
-              className="w-full h-full object-contain rounded-3xl shadow-2xl shadow-blue-500/30"
-            />
+            <div className="relative w-full h-full">
+              <Image
+                src="/1024.png"
+                alt="HabitDaily logo"
+                fill
+                className="object-contain rounded-3xl shadow-2xl shadow-blue-500/30"
+              />
+            </div>
           </div>
 
           <h1 className="text-6xl md:text-7xl font-black mb-6 bg-gradient-to-r from-blue-400 via-cyan-500 to-teal-500 bg-clip-text text-transparent leading-tight">
@@ -47,6 +62,13 @@ export default function HomePage() {
             {t.hero.subtitle}
           </p>
 
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 border border-blue-400/30 rounded-full px-4 py-2 mb-6">
+            <span className="text-lg">🎁</span>
+            <span className="text-white/90 font-medium">
+              {t.hero.freeOffer}
+            </span>
+          </div>
+
           <div className="flex flex-wrap gap-4 justify-center mb-8">
             <a
               href={appStoreLink}
@@ -54,9 +76,11 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform"
             >
-              <img
+              <Image
                 src="/app-store-badge.svg"
                 alt="Download on the App Store"
+                width={120}
+                height={40}
                 className="h-12 md:h-14 w-auto"
               />
             </a>
